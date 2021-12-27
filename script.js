@@ -11,7 +11,7 @@ console.log (numbersArray)
 boxContainer.innerHTML += numbersArray;  //stampo in html il mio array
 
 setTimeout (play, 3000); //setto un timer di 30s che poi lancerà la funzione
-
+// il problema è che non svuota l'html prima di chiedere di inserire numeri col prompt
 function play (){
     boxContainer.innerHTML = '';
     const userArray = [];
